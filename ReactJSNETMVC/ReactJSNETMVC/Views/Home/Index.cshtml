@@ -1,16 +1,18 @@
-﻿
-@{
+﻿@{
 	Layout = null;
 }
-
+@using React.Web.Mvc
 <!DOCTYPE html>
 
 <html>
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<title>Test</title>
+	<script src="~/Scripts/dist/components.js"></script>
 </head>
 <body>
-	coucou
+	This line is in my cshtml view.
+	@Html.React("Test", new { initialComments = "" })
+	@Html.ReactInitJavaScript()
 </body>
 </html>
