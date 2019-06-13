@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0",
+	"name": "asp.net",
+	"private": true,
+	"scripts": {
+		"dev": "webpack --mode development --watch",
+		"build": "webpack"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-class-properties": "^7.4.4",
+		"@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+		"@babel/plugin-syntax-dynamic-import": "^7.2.0"
+	}
+}
