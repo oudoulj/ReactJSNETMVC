@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<script src="/Scripts/dist/runtime.js"></script>
+	<script src="/Scripts/dist/vendor.js"></script>
+	<script src="/Scripts/dist/components.js"></script>
+
+	<div class="React"></div>
+	<div class="ReactDOM"></div>
+	<div class="ReactDOMServer"></div>
+
+	<script type="text/javascript">
+			function checkGlobal(name) {
+				let div = document.createElement('div');
+				div.innerText = `${name}: ${typeof window[name]}`;
+				document.body.appendChild(div);
+			}
+
+			checkGlobal('React');
+			checkGlobal('ReactDOM');
+			checkGlobal('ReactDOMServer');
+	</script>
+</body>
+</html>

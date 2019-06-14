@@ -16,10 +16,12 @@ namespace ReactJSNETMVC
 			// See http://reactjs.net/ for more information. Example:
 			ReactSiteConfiguration.Configuration
 				.SetReuseJavaScriptEngines(true)
-				.SetLoadBabel(true)
+				.SetLoadBabel(false)
 				.SetLoadReact(false)
 				.SetBabelVersion(BabelVersions.Babel7)
 				.SetUseDebugReact(true)
+				.AddScriptWithoutTransform("~/Scripts/dist/runtime.js")
+				.AddScriptWithoutTransform("~/Scripts/dist/vendor.js")
 				.AddScriptWithoutTransform("~/Scripts/dist/components.js");
 
 			JsEngineSwitcher.Current.DefaultEngineName = V8JsEngine.EngineName;

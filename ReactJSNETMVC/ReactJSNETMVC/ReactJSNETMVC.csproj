@@ -181,7 +181,12 @@
     <Content Include="package.json" />
     <Content Include=".babelrc" />
     <Content Include="Scripts\dist\components.js" />
+    <Content Include="Scripts\dist\runtime.js" />
+    <Content Include="Scripts\dist\vendor.js" />
     <Content Include="Scripts\expose-components.js" />
+    <Content Include="test.html" />
+    <Content Include="v8-base-x64.dll" />
+    <Content Include="v8-x64.dll" />
     <Content Include="webpack.config.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
