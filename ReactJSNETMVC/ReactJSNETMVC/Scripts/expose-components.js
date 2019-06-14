@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ReactDOMServer from "react-dom/server";
 
-import RootComponent from './Components/Test.jsx';
+import RootComponent from './Test.jsx';
 
 // Needed when we want to bundle React ourselves, also make sure to use SetLoadReact(false) in the ReactConfig.cs file
 global.React = React;

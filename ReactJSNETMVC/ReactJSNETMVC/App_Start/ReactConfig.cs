@@ -16,10 +16,9 @@ namespace ReactJSNETMVC
 			// See http://reactjs.net/ for more information. Example:
 			ReactSiteConfiguration.Configuration
 				.SetReuseJavaScriptEngines(true)
-				.SetLoadBabel(false)
+				.SetLoadBabel(true)
 				.SetLoadReact(false)
 				.SetBabelVersion(BabelVersions.Babel7)
-				.SetUseDebugReact(true)
 				.AddScriptWithoutTransform("~/Scripts/dist/runtime.js")
 				.AddScriptWithoutTransform("~/Scripts/dist/vendor.js")
 				.AddScriptWithoutTransform("~/Scripts/dist/components.js");
