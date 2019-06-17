@@ -8,7 +8,7 @@ module.exports = {
 		filename: '[name].js',
 		globalObject: 'this',
 		path: path.resolve(__dirname, 'Scripts/dist'),
-		publicPath: 'dist/'
+		//publicPath: 'dist/'
 	},
 	mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
 	optimization: {
