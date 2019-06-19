@@ -2,7 +2,7 @@ using JavaScriptEngineSwitcher.Core;
 using JavaScriptEngineSwitcher.V8;
 using React;
 
-//[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ReactJSNETMVC.ReactConfig), "Configure")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ReactJSNETMVC.ReactConfig), "Configure")]
 
 namespace ReactJSNETMVC
 {

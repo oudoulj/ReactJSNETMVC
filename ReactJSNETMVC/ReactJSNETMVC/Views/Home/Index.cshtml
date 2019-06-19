@@ -11,8 +11,10 @@
 	<script src="~/Scripts/dist/components.js"></script>
 </head>
 <body>
-	This line is in my cshtml view.
-	@Html.React("RootComponent", new { initialComments = "" })
-	@Html.ReactInitJavaScript()
+    This line is in my cshtml view.
+    @*@Html.React("RootComponent", new { initialComments = "" })*@
+    @Html.React("TestStyleComponent", new { })
+    @*<script src="@Url.Content("~/Scripts/TestStyle.jsx")"></script>*@
+    @Html.ReactInitJavaScript()
 </body>
 </html>

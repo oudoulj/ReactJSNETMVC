@@ -184,6 +184,7 @@
     <Content Include="Scripts\dist\runtime.js" />
     <Content Include="Scripts\dist\vendor.js" />
     <Content Include="Scripts\expose-components.js" />
+    <Content Include="Scripts\TestStyle.jsx" />
     <Content Include="test.html" />
     <Content Include="v8-base-x64.dll" />
     <Content Include="v8-x64.dll" />
